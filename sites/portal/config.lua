@@ -1,14 +1,12 @@
 local _config = {
     server = {
         nginx = {
-            port = "80",
-            port_ssl = "443",
-            server_name = "massbitroute"
+            port = "80"
         }
     },
     templates = {},
     apps = {
-       api = "apps/api" 
+        client = "apps/client"
     },
     supervisor = [[
     ]]

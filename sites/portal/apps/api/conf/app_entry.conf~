@@ -1,7 +1,0 @@
-location /ping {
-    default_type application/json;
-    limit_except GET{
-        deny all;
-    }
-    content_by_lua 'nginxBootstrap:runapp("_APP_ROOT_")';
-}
