@@ -4,12 +4,17 @@
 
 ```
 asdf plugin add openresty https://github.com/baysao/asdf-openresty.git
+asdf list all openresty
+asdf install openresty v1.21.4.1
+
 ```
 
 ## Install [GBC](https://github.com/baysao/gbc_v2) via [asdf](https://asdf-vm.com/)
 
 ```
 asdf plugin add gbc https://github.com/baysao/asdf-gbc.git
+asdf list all gbc
+asdf install gbc v0.0.13
 ```
 
 
