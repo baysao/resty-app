@@ -1,2 +1,6 @@
 .*#
 .*~
+/db/
+/logs/
+/tmp/
+/.module_paths
