@@ -98,4 +98,6 @@ cd /app/
 
 ```
 
+### Open web app via url address of docker instance, ex: `http://127.0.0.1/portal`
+
 
